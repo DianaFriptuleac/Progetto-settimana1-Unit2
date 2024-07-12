@@ -17,7 +17,9 @@ header ul li {
     font-size: 0.8em;
     margin: 1em;
     position: relative;
-
+}
+header ul{
+    text-align: center;
 }
 
 header nav {
@@ -25,6 +27,7 @@ header nav {
     justify-content: space-between;
     border-bottom: 1px solid #191919;
     padding: 1em;
+    z-index: 1;
 
 }
 
@@ -90,8 +93,7 @@ nav .logo {
 
 .card-trending {
     width: 70%;
-    margin: auto;
-    margin-top: 2em;
+    margin:2em auto;
 }
 
 .trending {
@@ -165,7 +167,7 @@ nav .logo {
     font-weight: bold;
     line-height: 1.2em;
 }
-.card .title-six-articles .date{
+.date{
     color: #4141418a;
     font-size: 0.8em;
     word-spacing: 3px;
@@ -178,4 +180,73 @@ nav .logo {
     position: relative;
     right: -3px;
     top:4px
+}
+main hr{
+    color:#80808061;
+}
+.main-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+}
+.main-section .img-photo img{
+    border-radius: 50%;
+    width: 1.5em;
+    position: relative;
+    bottom: 10px
+
+}
+.main-section .img-photo{
+    display: flex;
+    align-items: flex-start;
+}
+.main-section .text-main{
+    display: flex;
+    flex-direction: column;
+}
+.main-section .date-main-article{
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+   
+}
+.main-section .date-main-article img{
+    width: 1.5em;
+}
+.main-section .foto-main img{
+    width: 50%;
+}
+.date-main-article button{
+    text-align: center;
+    border-radius: 15px;
+    border-style: none;
+    position: relative;
+}
+.bookmark{
+    position: relative;
+   
+}
+.flex{
+    width: 30em;
+    margin: 2em;
+}
+.img-photo p{
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 1em;
+    line-height:1em;
+
+}
+.text-main{
+  font-size: 0.8em;
+}
+.title-article-main{
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 1em;
 }
