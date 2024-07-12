@@ -254,7 +254,7 @@ main hr{
     position: sticky;
     top: 100px;
     font-size: 0.9em;
-    margin: auto;
+    
   }
 
 
@@ -284,4 +284,6 @@ border: 1px solid #e2e2e2;
 }
 .left{
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
