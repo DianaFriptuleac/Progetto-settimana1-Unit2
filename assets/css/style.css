@@ -188,10 +188,7 @@ main hr{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
-
-   
-   
+ 
 }
 .main-container{
     display: flex;
