@@ -189,6 +189,9 @@ main hr{
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+
+   
+   
 }
 .main-container{
     display: flex;
@@ -228,7 +231,7 @@ main hr{
     position: relative;
 }
 .bookmark{
-    position: relative;
+    margin-right: auto;
    
 }
 .flex{
@@ -249,4 +252,39 @@ main hr{
     font-weight: bold;
     font-size: 1.3em;
     margin-bottom: 1em;
+}
+.right{
+    position: sticky;
+    top: 100px;
+    font-size: 0.9em;
+    margin: auto;
+  }
+
+
+.right a{
+text-decoration: none;
+color: #191919;
+padding: 0.8em;
+border: 1px solid #e2e2e2;
+
+}
+.right h4{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.first-right{
+    flex-wrap: wrap;
+    padding: 1em 1em 2em 0;
+    border-bottom: 1px solid #c5c5c5;
+    margin-bottom: 2em;
+    gap: 10px;
+}
+.first-right a{
+    text-decoration: none;
+    color: #191919;
+    padding: 0.8em;
+    border: 1px solid #e2e2e2;
+}
+.left{
+    margin: auto;
 }
