@@ -1,14 +1,19 @@
-window.onscroll = function() {stickyNav()};
+window.onscroll = function() {navScroll()};
 
-function stickyNav() {
-    var header = document.getElementById("navbar");
+function navScroll() {
+    var header = document.querySelector('header')
     var getS = document.getElementById("button")
 
-    if (window.header > 380) { /* Cambia colore quando si scrolla verso il basso */
-        header.style.backgroundColor = "#fff";
+    if (window.pageYOffset > 380) { 
+        header.style.backgroundColor = "#fff"; 
         getS.style.backgroundColor = "#1a8917"
     } else {
-        header.style.backgroundColor = "#ffc017"; // sfondo originale
+        header.style.backgroundColor = "#ffc017"; 
         getS.style.backgroundColor = "#181919"
     }
 }
+document.addEventListener('DOMContentLoaded',function(){
+    window.onscroll = function(){
+        navScroll();
+    }
+})
